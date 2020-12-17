@@ -1,0 +1,20 @@
+%%-*- mode: erlang -*-
+{application, modreloader,
+ [
+  {description, "modreloader"},
+  {vsn, "1"},
+  {modules, []},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  syntax_tools,
+                  goldrush,
+                  lager
+                  ]},
+  {mod, { modreloader_app, []}},
+  {env, [
+
+         
+        ]}
+ ]}.
